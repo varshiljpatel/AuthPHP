@@ -23,7 +23,7 @@ if (!isset($_SESSION['user_name'])) {
     ?>
         <div class="containerWperc dFlexCenter fDirectionColumn">
             <h1 class="unable_enter fw600 mt6 mb3">Welcome <?php echo $_SESSION['user_name']; ?> you are logged in now.</h1>
-            <a href="index.php" class="aReset tUpr px3 py1 dFlexCenter bcRed cWhite">log out</a>    
+            <a href="logout.php" class="aReset tUpr px3 py1 dFlexCenter bcRed cWhite">log out</a>    
         </div>
     </main>
 </body>
